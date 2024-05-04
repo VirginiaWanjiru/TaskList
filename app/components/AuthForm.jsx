@@ -12,7 +12,7 @@ export default function AuthForm(){
     view="magic_link"
     showLinks={false}
     providers={[]}
-    redirectTo = 'https://task-list-ten-sooty.vercel.app'
+    redirectTo = 'https://tasks-list-ten-sooty.vercel.app'
     appearance={{
         theme:'dark',
         button: {
