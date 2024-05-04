@@ -9,7 +9,7 @@ export async function middleware(req){
     const {data:{user}} = await supabase.auth.getUser();
 
     if(user && req.nextUrl.pathname === '/'){
-        return NextResponse.redirect(new URL ('/task-list',req.url))
+        return NextResponse.redirect(new URL ('/tasks-list',req.url))
 
     }
 if ( !user && req.nextUrl.pathname !== '/'){
