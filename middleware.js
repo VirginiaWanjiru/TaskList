@@ -22,5 +22,5 @@ return res;
 
 }
 export const config = {
-    matcher:['/', '/task-list']
+    matcher:['/', '/tasks-list']
 }

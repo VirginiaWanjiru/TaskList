@@ -41,6 +41,7 @@ export default async function TasksList(){
                 </form>
             </div>
             <TasksForm />
+            
             <div className="mt-6">
                 {tasks.map((tasks) => (
                     <div key={tasks.id} className="mb-4 p-4 bg-gray-800 rounded-lg shadow">
